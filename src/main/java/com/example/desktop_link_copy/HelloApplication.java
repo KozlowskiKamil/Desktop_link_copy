@@ -13,14 +13,25 @@ public class HelloApplication extends Application {
         launch(args);
     }
 
+    private static VBox getvBox() {
+        ButtonManager buttonManager = new ButtonManager();
+        VBox vbox = new VBox(10);
+        vbox.getChildren().addAll(buttonManager
+                        .createButton("LinkedIn"),
+                buttonManager.createButton("GitHub"),
+                buttonManager.createButton("Portfolio"),
+                buttonManager.createButton("Email"),
+                buttonManager.createButton("Mobile"),
+                buttonManager.createButton("Location"),
+                buttonManager.createButton("Description"));
+        return vbox;
+    }
+
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Link Copy App");
 
-        ButtonManager buttonManager = new ButtonManager();
-
-        VBox vbox = new VBox(10);
-        vbox.getChildren().addAll(buttonManager.createButton("LinkedIn"), buttonManager.createButton("GitHub"), buttonManager.createButton("Portfolio"), buttonManager.createButton("Email"), buttonManager.createButton("Mobile"), buttonManager.createButton("Location"), buttonManager.createButton("Description"));
+        VBox vbox = getvBox();
 
         Scene scene = new Scene(vbox, 120, 250);
         primaryStage.setAlwaysOnTop(true);
