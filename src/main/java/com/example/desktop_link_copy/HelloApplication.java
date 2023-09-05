@@ -15,28 +15,23 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Service service = new Service();
         primaryStage.setTitle("Link Copy App");
 
-        Links links = new Links();
-        links.setLinkedin("https://www.linkedin.com/in/your-linkedin");
-        links.setGithub("https://github.com/your-github");
+        Service linkService = new Service();
 
-
-        Button linkedIn = new Button("Kopiuj LinkedIn");
-        linkedIn.setOnAction(event -> {
-            service.copyLinkedinLinkToClipboard();
+        Button copyLinkedinButton = new Button("Kopiuj LinkedIn");
+        copyLinkedinButton.setOnAction(event -> {
+            linkService.copyLinkToClipboard("LinkedIn");
         });
 
-        Button github = new Button("Kopiuj Github");
-        linkedIn.setOnAction(event -> {
-            service.copyLinkedinLinkToClipboard();
+        Button copyGithubButton = new Button("Kopiuj GitHub");
+        copyGithubButton.setOnAction(event -> {
+            linkService.copyLinkToClipboard("GitHub");
         });
-
 
 
         VBox vbox = new VBox(10);
-        vbox.getChildren().addAll(linkedIn);
+        vbox.getChildren().addAll(copyLinkedinButton, copyGithubButton);
         Scene scene = new Scene(vbox, 300, 150);
 
         primaryStage.setScene(scene);
