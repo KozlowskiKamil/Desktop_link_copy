@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="initial commit">
+    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="change to one method to copy link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Links.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693909232032</updated>
-      <workItem from="1693909233056" duration="4659000" />
+      <workItem from="1693909233056" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -93,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693911578154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change to one method to copy link">
+      <option name="closed" value="true" />
+      <created>1693913928548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693913928548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="change to one method to copy link" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to one method to copy link" />
   </component>
 </project>

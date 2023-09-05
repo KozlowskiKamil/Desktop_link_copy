@@ -1,6 +1,8 @@
 package com.example.desktop_link_copy;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
@@ -18,22 +20,31 @@ public class HelloApplication extends Application {
         primaryStage.setTitle("Link Copy App");
 
         Service linkService = new Service();
+        Button copyLinkedinButton = new Button("LinkedIn");
+        Button copyGithubButton = new Button("GitHub");
+        Button copyPortfolioButton = new Button("Portfolio");
+        Button copyEmailButton = new Button("Email");
+        Button copyMobileButton = new Button("Mobile");
+        Button copyLocationButton = new Button("Location");
+        Button copyDescriptionButton = new Button("Description");
 
-        Button copyLinkedinButton = new Button("Kopiuj LinkedIn");
-        copyLinkedinButton.setOnAction(event -> {
-            linkService.copyLinkToClipboard("LinkedIn");
-        });
+        EventHandler<ActionEvent> copyButtonHandler = event -> {
+            Button clickedButton = (Button) event.getSource();
+            String buttonText = clickedButton.getText();
+            linkService.copyLinkToClipboard(buttonText);
+        };
 
-        Button copyGithubButton = new Button("Kopiuj GitHub");
-        copyGithubButton.setOnAction(event -> {
-            linkService.copyLinkToClipboard("GitHub");
-        });
-
+        copyLinkedinButton.setOnAction(copyButtonHandler);
+        copyGithubButton.setOnAction(copyButtonHandler);
+        copyPortfolioButton.setOnAction(copyButtonHandler);
+        copyEmailButton.setOnAction(copyButtonHandler);
+        copyMobileButton.setOnAction(copyButtonHandler);
+        copyLocationButton.setOnAction(copyButtonHandler);
+        copyDescriptionButton.setOnAction(copyButtonHandler);
 
         VBox vbox = new VBox(10);
-        vbox.getChildren().addAll(copyLinkedinButton, copyGithubButton);
-        Scene scene = new Scene(vbox, 300, 150);
-
+        vbox.getChildren().addAll(copyLinkedinButton, copyGithubButton, copyPortfolioButton, copyEmailButton, copyMobileButton, copyLocationButton, copyDescriptionButton);
+        Scene scene = new Scene(vbox, 300, 350);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

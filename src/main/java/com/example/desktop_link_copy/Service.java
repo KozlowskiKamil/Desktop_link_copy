@@ -5,7 +5,7 @@ import javafx.scene.input.ClipboardContent;
 
 public class Service {
 
-    private Links links;
+    private final Links links;
 
     public Service() {
         links = new Links();
@@ -32,9 +32,9 @@ public class Service {
             case "Mobile":
                 return links.getMobile();
             case "Location":
-                return links.getMobile();
+                return links.getLocation();
             case "Description":
-                return links.getMobile();
+                return links.getDescription();
             default:
                 return null;
         }
