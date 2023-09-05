@@ -25,8 +25,8 @@ public class HelloApplication extends Application {
     private static VBox getvBox() {
         ButtonManager buttonManager = new ButtonManager();
         VBox vbox = new VBox(10);
-        vbox.getChildren().addAll(buttonManager
-                        .createButton("LinkedIn"),
+        vbox.getChildren().addAll(
+                buttonManager.createButton("LinkedIn"),
                 buttonManager.createButton("GitHub"),
                 buttonManager.createButton("Portfolio"),
                 buttonManager.createButton("Email"),
@@ -42,8 +42,10 @@ public class HelloApplication extends Application {
         Image image = new Image(getClass().getResource("/ico/icon.png").toExternalForm());
         stage.getIcons().add(image);
 
-        VBox vbox = getvBox();
-        Scene scene = new Scene(vbox, 120, 250);
+//        VBox vbox = getvBox();
+//        Scene scene = new Scene(vbox, 120, 250);
+
+        Scene scene = new Scene(root);
 
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
@@ -53,12 +55,12 @@ public class HelloApplication extends Application {
         stage.setAlwaysOnTop(true);
         stage.alwaysOnTopProperty();
         double screenWidthInPixels = Screen.getPrimary().getBounds().getWidth();
-        double oneCmInPixels = 100;
-        double sceneHeight = 800;
-        double posX = screenWidthInPixels - oneCmInPixels;
-        double posY = (screenWidthInPixels - sceneHeight) / 2;
-        stage.setX(posX);
-        stage.setY(posY);
+//        double oneCmInPixels = 100;
+//        double sceneHeight = 800;
+//        double posX = screenWidthInPixels - oneCmInPixels;
+//        double posY = (screenWidthInPixels - sceneHeight) / 2;
+//        stage.setX(posX);
+//        stage.setY(posY);
         ContextMenu contextMenu = new ContextMenu();
         MenuItem minimizeItem = new MenuItem("Minimalizuj");
         minimizeItem.setOnAction(event -> {
