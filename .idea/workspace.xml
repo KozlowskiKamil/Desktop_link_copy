@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Desktop_link_copy:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="change to one method to copy link">
+    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="working v1">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Desktop_link_copy_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/ButtonManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693909232032</updated>
-      <workItem from="1693909233056" duration="6120000" />
+      <workItem from="1693909233056" duration="6727000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -98,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693913928548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working v1">
+      <option name="closed" value="true" />
+      <created>1693915406172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693915406172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="change to one method to copy link" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to one method to copy link" />
+    <MESSAGE value="working v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="working v1" />
   </component>
 </project>
