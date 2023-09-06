@@ -7,83 +7,83 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="78.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop_link_copy.HelloController">
-   <children>
-      <Button fx:id="github" layoutY="65.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <graphic>
-            <FontAwesomeIconView fill="#333333" glyphName="GITHUB_SQUARE" size="45" />
-         </graphic>
-         <font>
-            <Font size="31.0" />
-         </font>
-      </Button>
-      <Button fx:id="linkedin" mnemonicParsing="false" onAction="#copyLinkToClipboardLinkedIn" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="linkedin" />
-         </styleClass>
-         <font>
-            <Font size="31.0" />
-         </font>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="LINKEDIN_SQUARE" size="45" />
-         </graphic>
-      </Button>
-      <Button fx:id="github1" layoutY="130.0" mnemonicParsing="false" onAction="#copyLinkToClipboardPortfolio" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="ADDRESS_BOOK" size="40" />
-         </graphic>
-         <font>
-            <Font size="31.0" />
-         </font>
-      </Button>
-      <Button fx:id="github11" layoutY="195.0" mnemonicParsing="false" onAction="#copyLinkToClipboardMobile" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="PHONE_SQUARE" size="45" />
-         </graphic>
-         <font>
-            <Font size="31.0" />
-         </font>
-      </Button>
-      <Button fx:id="github111" layoutY="260.0" mnemonicParsing="false" onAction="#copyLinkToClipboardEmail" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="ENVELOPE_SQUARE" size="45" />
-         </graphic>
-         <font>
-            <Font size="31.0" />
-         </font>
-      </Button>
-      <Button fx:id="github1111" layoutY="325.0" mnemonicParsing="false" onAction="#copyLinkToClipboardDescription" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <font>
-            <Font size="31.0" />
-         </font>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="PENCIL_SQUARE" size="45" />
-         </graphic>
-      </Button>
-      <Button fx:id="github1112" layoutY="390.0" mnemonicParsing="false" onAction="#copyLinkToClipboardLocation" prefHeight="50" prefWidth="50">
-         <styleClass>
-            <String fx:value="github" />
-         </styleClass>
-         <font>
-            <Font size="31.0" />
-         </font>
-         <graphic>
-            <FontAwesomeIconView fill="#0e76a8" glyphName="MAP" size="40" />
-         </graphic>
-      </Button>
-   </children>
+    <children>
+        <Button fx:id="github" layoutY="65.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="github" />
+            </styleClass>
+            <graphic>
+                <FontAwesomeIconView fill="#333333" glyphName="GITHUB_SQUARE" size="45" />
+            </graphic>
+            <font>
+                <Font size="31.0" />
+            </font>
+        </Button>
+        <Button fx:id="linkedin" mnemonicParsing="false" onAction="#copyLinkToClipboardLinkedIn" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="linkedin" />
+            </styleClass>
+            <font>
+                <Font size="31.0" />
+            </font>
+            <graphic>
+                <FontAwesomeIconView fill="#0e76a8" glyphName="LINKEDIN_SQUARE" size="45" />
+            </graphic>
+        </Button>
+        <Button fx:id="portfolio" layoutY="130.0" mnemonicParsing="false" onAction="#copyLinkToClipboardPortfolio" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="portfolio" />
+            </styleClass>
+            <graphic>
+                <FontAwesomeIconView fill="#fe7b21" glyphName="ADDRESS_BOOK" size="40" />
+            </graphic>
+            <font>
+                <Font size="31.0" />
+            </font>
+        </Button>
+        <Button fx:id="mobile" layoutY="195.0" mnemonicParsing="false" onAction="#copyLinkToClipboardMobile" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="mobile" />
+            </styleClass>
+            <graphic>
+                <FontAwesomeIconView fill="#15b76c" glyphName="PHONE_SQUARE" size="45" />
+            </graphic>
+            <font>
+                <Font size="31.0" />
+            </font>
+        </Button>
+        <Button fx:id="email" layoutY="260.0" mnemonicParsing="false" onAction="#copyLinkToClipboardEmail" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="email" />
+            </styleClass>
+            <graphic>
+                <FontAwesomeIconView fill="#f04235" glyphName="ENVELOPE_SQUARE" size="45" />
+            </graphic>
+            <font>
+                <Font size="31.0" />
+            </font>
+        </Button>
+        <Button fx:id="description" layoutY="325.0" mnemonicParsing="false" onAction="#copyLinkToClipboardDescription" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="description" />
+            </styleClass>
+            <font>
+                <Font size="31.0" />
+            </font>
+            <graphic>
+                <FontAwesomeIconView fill="#0091ec" glyphName="PENCIL_SQUARE" size="45" />
+            </graphic>
+        </Button>
+        <Button fx:id="location" layoutY="390.0" mnemonicParsing="false" onAction="#copyLinkToClipboardLocation" prefHeight="50" prefWidth="50">
+            <styleClass>
+                <String fx:value="location" />
+            </styleClass>
+            <font>
+                <Font size="31.0" />
+            </font>
+            <graphic>
+                <FontAwesomeIconView fill="#f3b604" glyphName="MAP" size="40" />
+            </graphic>
+        </Button>
+    </children>
 </AnchorPane>
