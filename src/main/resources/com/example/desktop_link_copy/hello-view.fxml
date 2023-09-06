@@ -5,22 +5,62 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="110.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop_link_copy.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="84.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop_link_copy.HelloController">
    <children>
-      <Button fx:id="github" layoutX="21.0" layoutY="44.0" mnemonicParsing="false" prefHeight="50" prefWidth="50" onAction="#copyLinkToClipboardGitHub">
+      <Button fx:id="github" layoutX="7.0" layoutY="66.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
          <graphic>
-            <FontAwesomeIconView glyphName="GITHUB" size="33" />
+            <FontAwesomeIconView glyphName="GITHUB_SQUARE" size="33" />
          </graphic>
          <font>
             <Font size="31.0" />
          </font>
       </Button>
-      <Button fx:id="linkedin" layoutX="21.0" layoutY="125.0" mnemonicParsing="false" prefHeight="50" prefWidth="50" onAction="#copyLinkToClipboardLinkedIn">
+      <Button fx:id="linkedin" layoutX="7.0" layoutY="2.0" mnemonicParsing="false" onAction="#copyLinkToClipboardLinkedIn" prefHeight="50" prefWidth="50">
          <font>
             <Font size="31.0" />
          </font>
          <graphic>
-            <FontAwesomeIconView glyphName="LINKEDIN" size="33" />
+            <FontAwesomeIconView glyphName="LINKEDIN_SQUARE" size="33" />
+         </graphic>
+      </Button>
+      <Button fx:id="github1" layoutX="7.0" layoutY="130.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+         <graphic>
+            <FontAwesomeIconView glyphName="ADDRESS_BOOK" size="33" />
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="github11" layoutX="9.0" layoutY="195.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+         <graphic>
+            <FontAwesomeIconView glyphName="PHONE_SQUARE" size="33" />
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="github111" layoutX="8.0" layoutY="263.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+         <graphic>
+            <FontAwesomeIconView glyphName="ENVELOPE_SQUARE" size="33" />
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="github1111" layoutX="6.0" layoutY="336.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="PENCIL_SQUARE" size="33" />
+         </graphic>
+      </Button>
+      <Button fx:id="github1112" layoutX="5.0" layoutY="412.0" mnemonicParsing="false" onAction="#copyLinkToClipboardGitHub" prefHeight="50" prefWidth="50">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="MAP" size="33" />
          </graphic>
       </Button>
 
