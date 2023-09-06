@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="Working v1.5">
+    <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="Working v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/desktop_link_copy/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/desktop_link_copy/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694007728156</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Working v2">
+      <option name="closed" value="true" />
+      <created>1694011294917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694011294917</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
     <MESSAGE value="Working v1.5 circle button" />
     <MESSAGE value="Working v1.5 add icon" />
     <MESSAGE value="Working v1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working v1.5" />
+    <MESSAGE value="Working v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working v2" />
   </component>
 </project>
