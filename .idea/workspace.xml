@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="670fceb9-4266-43cb-8170-34085c43fcf9" name="Changes" comment="add always On Top and start app on side&#10;Working v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/desktop_link_copy/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/desktop_link_copy/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/desktop_link_copy/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
