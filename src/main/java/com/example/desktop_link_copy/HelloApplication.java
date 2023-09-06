@@ -41,12 +41,7 @@ public class HelloApplication extends Application {
         Parent root = FXMLLoader.load(HelloApplication.class.getResource("hello-view.fxml"));
         Image image = new Image(getClass().getResource("/ico/icon.png").toExternalForm());
         stage.getIcons().add(image);
-
-//        VBox vbox = getvBox();
-//        Scene scene = new Scene(vbox, 120, 250);
-
         Scene scene = new Scene(root);
-
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
         scene.getStylesheets().add("/style.css");
@@ -55,12 +50,12 @@ public class HelloApplication extends Application {
         stage.setAlwaysOnTop(true);
         stage.alwaysOnTopProperty();
         double screenWidthInPixels = Screen.getPrimary().getBounds().getWidth();
-//        double oneCmInPixels = 100;
-//        double sceneHeight = 800;
-//        double posX = screenWidthInPixels - oneCmInPixels;
-//        double posY = (screenWidthInPixels - sceneHeight) / 2;
-//        stage.setX(posX);
-//        stage.setY(posY);
+        double oneCmInPixels = 100;
+        double sceneHeight = 800;
+        double posX = screenWidthInPixels - oneCmInPixels;
+        double posY = (screenWidthInPixels - sceneHeight) / 2;
+        stage.setX(posX);
+        stage.setY(posY);
         ContextMenu contextMenu = new ContextMenu();
         MenuItem minimizeItem = new MenuItem("Minimalizuj");
         minimizeItem.setOnAction(event -> {
