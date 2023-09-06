@@ -50,8 +50,8 @@ public class HelloApplication extends Application {
         stage.setAlwaysOnTop(true);
         stage.alwaysOnTopProperty();
         double screenWidthInPixels = Screen.getPrimary().getBounds().getWidth();
-        double oneCmInPixels = 100;
-        double sceneHeight = 800;
+        double oneCmInPixels = 70;
+        double sceneHeight = 1000;
         double posX = screenWidthInPixels - oneCmInPixels;
         double posY = (screenWidthInPixels - sceneHeight) / 2;
         stage.setX(posX);

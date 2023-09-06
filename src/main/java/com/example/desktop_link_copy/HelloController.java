@@ -7,7 +7,7 @@ public class HelloController {
     @FXML
     private Label welcomeText;
 
-    private Service service;
+    private final Service service;
 
     public HelloController() {
         this.service = new Service();
@@ -27,5 +27,29 @@ public class HelloController {
     protected void copyLinkToClipboardLinkedIn() {
         copyLinkToClipboard("LinkedIn");
     }
-    // Pozostałe metody i logika
+
+    @FXML
+    protected void copyLinkToClipboardPortfolio() {
+        copyLinkToClipboard("Portfolio");
+    }
+
+    @FXML
+    protected void copyLinkToClipboardEmail() {
+        copyLinkToClipboard("Email");
+    }
+
+    @FXML
+    protected void copyLinkToClipboardMobile() {
+        copyLinkToClipboard("Mobile");
+    }
+
+    @FXML
+    protected void copyLinkToClipboardLocation() {
+        copyLinkToClipboard("Location");
+    }
+
+    @FXML
+    protected void copyLinkToClipboardDescription() {
+        copyLinkToClipboard("Description");
+    }
 }
