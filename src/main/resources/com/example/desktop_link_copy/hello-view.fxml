@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="110.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="110.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop_link_copy.HelloController">
    <children>
-      <Button fx:id="github" layoutX="21.0" layoutY="44.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="52.0">
+      <Button fx:id="github" layoutX="21.0" layoutY="44.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="52.0" onAction="#copyLinkToClipboardGitHub">
          <graphic>
             <FontAwesomeIconView glyphName="GITHUB" size="33" />
          </graphic>
@@ -15,7 +15,7 @@
             <Font size="31.0" />
          </font>
       </Button>
-      <Button fx:id="linkedin" layoutX="21.0" layoutY="125.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="52.0" text="LinkedIn" textFill="transparent">
+      <Button fx:id="linkedin" layoutX="21.0" layoutY="125.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="52.0" text="LinkedIn" textFill="transparent" onAction="#copyLinkToClipboardLinkedIn">
          <font>
             <Font size="31.0" />
          </font>
@@ -23,5 +23,8 @@
             <FontAwesomeIconView glyphName="LINKEDIN" size="33" />
          </graphic>
       </Button>
+
+
+
    </children>
 </AnchorPane>

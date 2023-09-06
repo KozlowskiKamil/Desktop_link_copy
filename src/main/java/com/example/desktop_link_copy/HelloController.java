@@ -7,8 +7,25 @@ public class HelloController {
     @FXML
     private Label welcomeText;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private Service service;
+
+    public HelloController() {
+        this.service = new Service();
     }
+
+    @FXML
+    protected void copyLinkToClipboard(String linkName) {
+        service.copyLinkToClipboard(linkName);
+    }
+
+    @FXML
+    protected void copyLinkToClipboardGitHub() {
+        copyLinkToClipboard("GitHub");
+    }
+
+    @FXML
+    protected void copyLinkToClipboardLinkedIn() {
+        copyLinkToClipboard("LinkedIn");
+    }
+    // Pozostałe metody i logika
 }
