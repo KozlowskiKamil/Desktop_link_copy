@@ -9,14 +9,17 @@ public class Service {
 
     public Service() {
         links = new Links();
-        links.setLinkedin("https://www.linkedin.com/in/kozlowski-kamil/");
+        links.setLinkedin("https://www.linkedin.com/in/kozlowski-kamil");
         links.setGithub("https://github.com/KozlowskiKamil");
-        links.setPortfolio("https://kozlowskikamil.github.io/");
+        links.setPortfolio("https://kozlowskikamil.github.io");
         links.setEmail("kozlowski.kamil2k@gmail.com");
         links.setMobile("+48697333067");
         links.setLocation("Gdansk");
-        links.setDescription("Please consider my CV for the given position");
 
+        links.setDescription("http://kozlowski.alwaysdata.net" +
+                "\nhttps://kozlowskikamil.github.io" +
+                "\nhttps://www.linkedin.com/in/kozlowski-kamil" +
+                "\nhttps://github.com/KozlowskiKamil");
     }
 
     public String getLink(String linkName) {
